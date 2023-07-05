@@ -1,7 +1,8 @@
 from decimal import Decimal
 
 from moneyed import Money
-from pydantic import BaseModel, BaseSettings
+from pydantic import BaseModel
+from pydantic.main import BaseSettings
 
 
 class TaxData(BaseSettings):
